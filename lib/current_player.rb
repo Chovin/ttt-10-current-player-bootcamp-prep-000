@@ -1,8 +1,7 @@
 def turn_count(board)
   board.
     compact.    # nils
-    join.strip. # " ", ""
-    size
+    count "XO"  # " ", ""
 end
 
 def current_player(board)
