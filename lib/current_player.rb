@@ -1,5 +1,5 @@
 def turn_count(board)
-  board.count "XO"
+  board.join.count "XO"
 end
 
 def current_player(board)
