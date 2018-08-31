@@ -1,7 +1,5 @@
 def turn_count(board)
-  board.
-    compact.    # nils
-    count "XO"
+  board.count "XO"
 end
 
 def current_player(board)
